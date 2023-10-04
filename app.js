@@ -19,7 +19,7 @@ app.get('/service',(req,res)=>{
     res.send("fgdfgdfgdfgdfgdf")
 })
 
-app.get('/service',(req,res)=>{
+app.get('/contact',(req,res)=>{
     res.send("fgdfgdfgdfgdfgdf")
 })
 app.listen(port,()=>{
