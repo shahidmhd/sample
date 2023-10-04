@@ -10,7 +10,9 @@ app.get('/',(req,res)=>{
 app.get('/home',(req,res)=>{
     res.send("home")
 })
-
+app.get('/home',(req,res)=>{
+    res.send("homedgdfgdfgdfgdfgdfgdfgdfgdgd")
+})
 app.listen(port,()=>{
     console.log(`server running ${port}`);
 })
