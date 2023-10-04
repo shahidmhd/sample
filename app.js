@@ -10,8 +10,13 @@ app.get('/',(req,res)=>{
 app.get('/home',(req,res)=>{
     res.send("home")
 })
-app.get('/home',(req,res)=>{
+app.get('/about',(req,res)=>{
     res.send("homedgdfgdfgdfgdfgdfgdfgdfgdgd")
+})
+
+
+app.get('/service',(req,res)=>{
+    res.send("fgdfgdfgdfgdfgdf")
 })
 app.listen(port,()=>{
     console.log(`server running ${port}`);
