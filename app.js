@@ -18,6 +18,10 @@ app.get('/about',(req,res)=>{
 app.get('/service',(req,res)=>{
     res.send("fgdfgdfgdfgdfgdf")
 })
+
+app.get('/service',(req,res)=>{
+    res.send("fgdfgdfgdfgdfgdf")
+})
 app.listen(port,()=>{
     console.log(`server running ${port}`);
 })
